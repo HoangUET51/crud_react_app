@@ -1,0 +1,84 @@
+.table-container {
+  .search-container {
+    .title {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .input_search {
+      margin-left: 10px;
+      padding: 5px;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      background-color: rgb(200, 196, 196);
+    }
+  }
+  .sort-field {
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(69, 144, 209);
+    }
+  }
+}
+.icon-setting {
+  margin-top: 8px;
+}
+.login-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 20px 20px 60px 20px;
+  border-radius: 5px;
+  .title {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .input-container {
+    input {
+      display: block;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      background: #ccc;
+      padding: 8px;
+    }
+    .icon {
+      position: relative;
+      i {
+        position: absolute;
+        right: 5px;
+        bottom: 10px;
+        cursor: pointer;
+      }
+    }
+    button {
+      width: 100%;
+      border: none;
+      margin-top: 20px;
+      padding: 5px;
+      border-radius: 3px;
+      &.active {
+        background-color: rgb(209, 62, 62);
+        color: white;
+      }
+    }
+    button:disabled,
+    button[disabled] {
+      cursor: not-allowed;
+    }
+    .back {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        color: rgb(106, 224, 234);
+      }
+    }
+  }
+}
